@@ -5,7 +5,7 @@ import {DiGithub} from "react-icons/di"
  
 const Footer = ()=>{
 
-    return <Box padding={"2"} bg="yellow.500" minH={'5vh'}>
+    return <Box padding={"2"} bg="white" minH={'5vh'}>
         <Stack direction={["column", "center"]}>
             <VStack alignItems={["center", "flex-start"]} width="full" >
 
