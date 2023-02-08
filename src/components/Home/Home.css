@@ -1,0 +1,79 @@
+.container{
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+.vector-graphics {
+    filter: drop-shadow(0 40px 10px rgba(0,0,0,0, 0.3));
+    animation: vectorAnimation 1s infinite ease-in-out alternate ;
+}
+@keyframes vectorAnimation {
+    to{
+        transform: translateY(-30px);
+    }
+}
+.brandsBanner >svg{
+    font-size: 2rem;
+    transition: color 0.5s;
+}
+.brandsBanner >svg:hover{
+    color: rgb(255, 221, 0);  
+}
+.container2{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 video{
+    border: 1px solid rgba(0,0,0, 0.18);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.175);
+    width: max-content;
+    height: 90%;
+    border-radius: 5px;
+    outline: none;
+}
+.line{
+    font-size: 1.5rem;
+    font-family: "Gilroy";
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        height: 100vh;
+    }
+    .brandsBanner >svg{
+        font-size: 1rem;
+        transition: color 0.5s;
+    }
+    
+    .container2 video{
+        border: 1px solid rgba(0,0,0, 0.18);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+        width: max-content;
+        height: 75%;
+        border-radius: 5px;
+        outline: none;
+    }
+    .container2{
+        height: 35vh;
+    }
+    @keyframes vectorAnimation {
+        to{
+            transform: translateY(-10px);
+        }
+    }
+    
+    
+    
+}
+.course{
+    width: 250px;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+.course:hover{
+    transform: translateY(-10px);
+}
