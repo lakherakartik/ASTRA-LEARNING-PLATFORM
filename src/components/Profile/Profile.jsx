@@ -78,7 +78,7 @@ const {isOpen,onClose,onOpen}= useDisclosure();
                     <Link to="/updateprofile">
                       <Button>Update Profile</Button>
                     </Link>
-                    <Link to="/change password">
+                    <Link to="/changepassword">
                       <Button>Change Password</Button>
                     </Link>
                   </Stack>
